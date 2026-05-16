@@ -1,16 +1,27 @@
-# React + Vite
+# Connor Taleb – Personal Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React + Vite portfolio site for Connor Taleb, showcasing projects, research, resume, and blog.
 
-Currently, two official plugins are available:
+## Features
+- Dark mode forced by default via `document.documentElement.classList.add('dark')`
+- Responsive layout using Tailwind CSS with `clamp()` for font sizing
+- Page routing with React Router
+- Blog powered by MDX files in `src/content/blog`
+- Credits guard (`CreditsGuard.tsx`) that enforces the Credits page contract
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Getting Started
+```bash
+npm ci          # install dependencies
+npm run dev      # start dev server (http://localhost:5173)
+npm run build    # production build (outputs to ./dist)
+npm run preview  # preview the built site locally
+```
 
-## React Compiler
+## Deploy
+The repo can be deployed to Vercel (or any static host). Vercel configuration is in `vercel.json`. After a successful `npm run build`, push the `dist/` folder or let Vercel build from the repo.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## License
+MIT License – see the `LICENSE` file in the repository.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Contributing
+Open issues or submit pull requests. Keep the same coding style (ASCII only, no emojis) and run `npm run lint` before submitting.
