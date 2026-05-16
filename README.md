@@ -7,7 +7,6 @@ A React + Vite portfolio site for Connor Taleb, showcasing projects, research, r
 - Responsive layout using Tailwind CSS with `clamp()` for font sizing
 - Page routing with React Router
 - Blog powered by MDX files in `src/content/blog`
-- Credits guard (`CreditsGuard.tsx`) that enforces the Credits page contract
 
 ## Getting Started
 ```bash
