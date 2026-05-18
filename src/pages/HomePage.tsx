@@ -1,4 +1,4 @@
-export default function HomePage(): JSX.Element {
+pexport default function HomePage(): JSX.Element {
   const sections = [
     {
       title: "Active Research",
@@ -24,8 +24,7 @@ export default function HomePage(): JSX.Element {
           <div className="h-px w-24 bg-gradient-to-r from-brand to-transparent opacity-20"></div>
         </div>
         <p className="text-xl md:text-2xl text-text-dim/80 leading-relaxed font-light italic max-w-xl text-left">
-          Aspiring theoretical physicist exploring high-voltage systems and
-          fundamental mechanics.
+          Aspiring experimental physicist who enjoys tinkering with tech. Focused on nuclear physics research with FRIB and Quarknet Muon Research
         </p>
       </header>
 
