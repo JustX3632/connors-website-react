@@ -27,7 +27,7 @@ const AboutMePage = (): JSX.Element => {
           </h2>
           <div className="space-y-6">
             <p>
-              I like to do a lot of things. I watch movies, TV, and anime.
+              I like to do a lot of things. I watch movi es, TV, and anime.
               I listen to music and read extensively. I play the violin—though
               perhaps not as well as I should after four years—and I'm also
               active in kickboxing. I enjoy the creative process of making and
