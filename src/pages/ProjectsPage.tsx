@@ -26,6 +26,7 @@ const ProjectsPage = (): JSX.Element => {
                 Visit fusor.net →
               </a>
             </div>
+          </div>
         </section>
 
         <section className="space-y-8">
