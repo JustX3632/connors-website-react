@@ -10,9 +10,8 @@ const ResourcesPage = (): JSX.Element => {
               FloatHead Physics
             </h3>
             <p>
-              Arguably the best physics educator online. If you haven't watched his
-              videos, you're missing out on some of the clearest explanations of
-              complex concepts.
+              He is the best Physics eductor that I've seen on youtube. His vidoes are truely incredible.
+              He explains the most unintuitive things in a way where you can intuitivley understand them
             </p>
           </div>
           <div className="space-y-4">
@@ -20,8 +19,24 @@ const ResourcesPage = (): JSX.Element => {
               3Blue1Brown
             </h3>
             <p>
-              Grant Sanderson's visualizations make mathematics and physics feel
-              like art. Everything is explained with incredible clarity and beauty.
+              Great math vidoes. His animations are great for understanding complex math
+            </p>
+          </div>
+          <div className="space-y-4">
+            <h3 className="text-brand text-xl font-medium italic">
+              Productivity
+            </h3>
+            <p>
+              Clearspace and Opal both helped me break bad habits with phone usage
+            </p>
+          </div>
+          <div className="space-y-4">
+            <h3 className="text-brand text-xl font-medium italic">
+              Teachers
+            </h3>
+            <p>
+              Most people don't appriciate how great of a resource Teachers are. Most people also dont understand how much work it is to be a teacher.
+              Please, thank your teachers for what they do.
             </p>
           </div>
         </section>
