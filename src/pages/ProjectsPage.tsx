@@ -14,10 +14,8 @@ const ProjectsPage = (): JSX.Element => {
                 Demo Fusor
               </h3>
               <p>
-                Currently in the "figuring it out" phase. Inspired by the
-                community at fusor.net, this project is about the challenge of
-                discovery and assembly. I'm taking the advice to talk to
-                everyone who can help and digging deep into the forums.
+                After a lot of forum browsing, I am too broke for this. 
+                I'd love to continue this after my PHD though!
               </p>
               <a
                 href="https://fusor.net"
@@ -28,26 +26,6 @@ const ProjectsPage = (): JSX.Element => {
                 Visit fusor.net →
               </a>
             </div>
-            <div className="space-y-4">
-              <h3 className="text-brand text-lg font-medium italic">
-                Van de Graaff Generator
-              </h3>
-              <p>
-                Working on building a custom Van de Graaff and simultaneously
-                restoring my school's unit. It's a fascinating high-voltage,
-                low-current generator capable of producing safe, visible arcs.
-              </p>
-            </div>
-            <div className="space-y-4">
-              <h3 className="text-brand text-lg font-medium italic">
-                Magnetic Accelerator
-              </h3>
-              <p>
-                Developing a coil gun/magnetic accelerator system to explore
-                electromagnetism in motion.
-              </p>
-            </div>
-          </div>
         </section>
 
         <section className="space-y-8">
@@ -58,7 +36,8 @@ const ProjectsPage = (): JSX.Element => {
             <div className="p-6 border border-white/5 rounded-2xl space-y-2">
               <h3 className="text-brand text-sm font-bold">Electromagnet</h3>
               <p className="text-sm italic">
-                Built a functional bar magnet from scratch.
+                Built a functional bar magnet from scratch. 
+                Not too impressive but it was fun
               </p>
             </div>
             <div className="p-6 border border-white/5 rounded-2xl space-y-2">
@@ -68,15 +47,16 @@ const ProjectsPage = (): JSX.Element => {
               </p>
             </div>
             <div className="p-6 border border-white/5 rounded-2xl space-y-2">
-              <h3 className="text-brand text-sm font-bold">Computing</h3>
+              <h3 className="text-brand text-sm font-bold">Random Electronics</h3>
               <p className="text-sm italic">
-                Built 2 high-performance PCs and 2 3D printers.
+                Built 2 gaming PCs and 2 3D printers.
               </p>
             </div>
             <div className="p-6 border border-white/5 rounded-2xl space-y-2">
               <h3 className="text-brand text-sm font-bold">This Website</h3>
               <p className="text-sm italic">
-                Designed and deployed this digital journal.
+                Designed the predacessor to this website. 
+                My friend Charlie redesigned it for me. Thank you!
               </p>
             </div>
           </div>
@@ -87,7 +67,7 @@ const ProjectsPage = (): JSX.Element => {
             Future Plans
           </h2>
           <p className="italic text-lg">
-            Upcoming major projects include a full-scale Fusor and a Tesla coil.
+            Upcoming major projects include a Tesla coil.
           </p>
         </section>
       </div>
