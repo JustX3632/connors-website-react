@@ -2,11 +2,11 @@ import PageLayout from "../components/PageLayout";
 
 const AboutMePage = (): JSX.Element => {
   return (
-    <PageLayout title="About Me" subtitle="Physicist, Musician, and Creative">
+    <PageLayout title="About Me" subtitle="Lifelong Learner">
       <div className="space-y-16">
         <section className="space-y-6">
           <p>
-            Hello reader! I'm Connor. I hope to become a physicist, with a deep
+            Hello reader! I'm Connor. I hope to become a physicist, with deep
             interest in both theoretical and experimental domains. I created
             this website in my freshman year of high school to document my
             journey through the world of physics and beyond.
@@ -27,28 +27,27 @@ const AboutMePage = (): JSX.Element => {
           </h2>
           <div className="space-y-6">
             <p>
-              I like to do a lot of things. I watch movi es, TV, and anime.
-              I listen to music and read extensively. I play the violin—though
-              perhaps not as well as I should after four years—and I'm also
-              active in kickboxing. I enjoy the creative process of making and
-              wearing cosplay props.
+              I like to do a lot of things. I watch movies, TV, and anime.
+              I listen to music and read, but not as much as I should. I play the violin, also
+              not as well as I should after five years, and I'm also
+              active in kickboxing. I enjoy making and wearing cosplay props.
             </p>
           </div>
         </section>
 
         <section className="space-y-8">
           <h2 className="text-[10px] uppercase tracking-[0.5em] text-brand/40 font-bold">
-            Current Obsessions
+            Current Media I like
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="space-y-2">
               <h3 className="text-brand text-sm font-medium italic">Reading</h3>
-              <p className="text-sm">Hero of the Ages by Brandon Sanderson</p>
+              <p className="text-sm">The Way of Kings by Brandon Sanderson</p>
             </div>
             <div className="space-y-2">
               <h3 className="text-brand text-sm font-medium italic">Cinema</h3>
               <p className="text-sm">
-                Lord of the Rings (the absolute peak of cinema)
+                Lord of the Rings (the greatest story ever told)
               </p>
             </div>
             <div className="space-y-2">
@@ -68,20 +67,22 @@ const AboutMePage = (): JSX.Element => {
 
         <section className="space-y-8">
           <h2 className="text-[10px] uppercase tracking-[0.5em] text-brand/40 font-bold">
-            The Archive
+            What I like
           </h2>
           <div className="space-y-6">
             <div className="space-y-2">
               <h3 className="text-brand text-sm font-medium italic">Books</h3>
               <p className="text-sm">
-                I love fantasy. The Six of Crows duology is top-tier. I've also
-                enjoyed the Dresden Files and Eragon. Send me recommendations!
+                I love fantasy. The Six of Crows duology is great. I've also
+                enjoyed the Dresden Files and Eragon. I liked the first 1/3 of the 
+                Mistborn series by Sanderson Send me recommendations!
               </p>
             </div>
             <div className="space-y-2">
               <h3 className="text-brand text-sm font-medium italic">Film</h3>
               <p className="text-sm">
-                Lord of the Rings is unmatched. I also recently enjoyed Alien.
+                Lord of the Rings is the greatest film ever made. 
+                I watched both Project Hail Mary and Interstellar recently and I loved both of those.
               </p>
             </div>
           </div>
