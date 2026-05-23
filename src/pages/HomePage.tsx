@@ -1,4 +1,4 @@
-pexport default function HomePage(): JSX.Element {
+export default function HomePage(): JSX.Element {
   const sections = [
     {
       title: "Active Research",
