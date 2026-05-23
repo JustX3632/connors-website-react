@@ -2,15 +2,15 @@ export default function HomePage(): JSX.Element {
   const sections = [
     {
       title: "Active Research",
-      items: ["Demo Fusor", "Van de Graff", "Magnetic Accelerator", "Coil Gun"],
+      items: ["Quarknet Muon Research", "PING: e16027", "PING: c-19 ratio method scattering chamber design"],
     },
     {
-      title: "Planned Experiments",
-      items: ["High-Voltage Fusor", "Tesla Coil Array"],
+      title: "Planned Projects",
+      items: ["High-Voltage Fusor", "Tesla Coil", "Demo Fusor", "Coil Gun", "Van De Graff"],
     },
     {
-      title: "Theoretical Foundation",
-      items: ["Classical Mechanics", "Electrical Machinery"],
+      title: "Attmepted Textbooks",
+      items: ["Classical Mechanics by John R Taylor", "Electrical Machinery", "Single Variable Calculus Early Transcedentals", "Multivariable Calculus 7E", "Introduction to Electrodynamics", "Elementary Linear Algebra"],
     },
   ];
 
@@ -24,7 +24,7 @@ export default function HomePage(): JSX.Element {
           <div className="h-px w-24 bg-gradient-to-r from-brand to-transparent opacity-20"></div>
         </div>
         <p className="text-xl md:text-2xl text-text-dim/80 leading-relaxed font-light italic max-w-xl text-left">
-          Aspiring experimental physicist who enjoys tinkering with tech. Focused on nuclear physics research with FRIB and Quarknet Muon Research
+          Aspiring experimental Physicist who enjoys tinkering with tech. Focused on nuclear physics research with FRIB and Quarknet Muon Research
         </p>
       </header>
 
