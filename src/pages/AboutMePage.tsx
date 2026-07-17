@@ -6,13 +6,13 @@ const AboutMePage = (): JSX.Element => {
       <div className="space-y-16">
         <section className="space-y-6">
           <p>
-            Hello reader! I'm Connor. I hope to become a physicist, with deep
-            interest in both theoretical and experimental domains. I created
+            Hello, reader! I'm Connor. I hope to become a physicist and have a
+            deep interest in both theoretical and experimental fields. I created
             this website in my freshman year of high school to document my
             journey through the world of physics and beyond.
           </p>
           <p>
-            You can reach me at{' '}<a
+            You can reach me at{" "}<a
               href="mailto:connor@connorphysics.org"
               className="text-brand border-b border-brand/20 pb-0.5 hover:border-brand transition-all"
             >
@@ -27,17 +27,18 @@ const AboutMePage = (): JSX.Element => {
           </h2>
           <div className="space-y-6">
             <p>
-              I like to do a lot of things. I watch movies, TV, and anime.
-              I listen to music and read, but not as much as I should. I play the violin, also
-              not as well as I should after five years, and I'm also
-              active in kickboxing. I enjoy making and wearing cosplay props.
+              I like to do a lot of things. I watch movies, TV, and anime. I
+              listen to music and read, though not as much as I should. I have
+              played the violin for five years, though not as well as I would
+              like, and I am also active in kickboxing. I enjoy making and
+              wearing cosplay props.
             </p>
           </div>
         </section>
 
         <section className="space-y-8">
           <h2 className="text-[10px] uppercase tracking-[0.5em] text-brand/40 font-bold">
-            Current Media I like
+            Current Media I Like
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="space-y-2">
@@ -67,22 +68,24 @@ const AboutMePage = (): JSX.Element => {
 
         <section className="space-y-8">
           <h2 className="text-[10px] uppercase tracking-[0.5em] text-brand/40 font-bold">
-            What I like
+            What I Like
           </h2>
           <div className="space-y-6">
             <div className="space-y-2">
               <h3 className="text-brand text-sm font-medium italic">Books</h3>
               <p className="text-sm">
                 I love fantasy. The Six of Crows duology is great. I've also
-                enjoyed the Dresden Files and Eragon. I liked the first 1/3 of the 
-                Mistborn series by Sanderson Send me recommendations!
+                enjoyed The Dresden Files and Eragon. I liked the first third
+                of the Mistborn series by Brandon Sanderson. Send me
+                recommendations!
               </p>
             </div>
             <div className="space-y-2">
               <h3 className="text-brand text-sm font-medium italic">Film</h3>
               <p className="text-sm">
-                Lord of the Rings is the greatest film ever made. 
-                I watched both Project Hail Mary and Interstellar recently and I loved both of those.
+                The Lord of the Rings is the greatest film series ever made. I
+                recently watched both Project Hail Mary and Interstellar, and I
+                loved them both.
               </p>
             </div>
           </div>

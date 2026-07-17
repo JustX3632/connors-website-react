@@ -14,8 +14,9 @@ const ProjectsPage = (): JSX.Element => {
                 Demo Fusor
               </h3>
               <p>
-                After a lot of forum browsing, I am too broke for this. 
-                I'd love to continue this after my PHD though!
+                After a lot of forum browsing, I realized this project is
+                currently outside my budget. I would love to continue it after
+                earning my PhD, though!
               </p>
               <a
                 href="https://fusor.net"
@@ -37,26 +38,26 @@ const ProjectsPage = (): JSX.Element => {
             <div className="p-6 border border-white/5 rounded-2xl space-y-2">
               <h3 className="text-brand text-sm font-bold">Electromagnet</h3>
               <p className="text-sm italic">
-                Built a functional bar magnet from scratch. 
-                Not too impressive but it was fun
+                Built a functional bar magnet from scratch. It was not
+                especially impressive, but it was fun.
               </p>
             </div>
             <div className="p-6 border border-white/5 rounded-2xl space-y-2">
               <h3 className="text-brand text-sm font-bold">Cosplay Props</h3>
               <p className="text-sm italic">
-                Constructed a 7ft tall cosplay sword.
+                Constructed a seven-foot-tall cosplay sword.
               </p>
             </div>
             <div className="p-6 border border-white/5 rounded-2xl space-y-2">
               <h3 className="text-brand text-sm font-bold">Random Electronics</h3>
               <p className="text-sm italic">
-                Built 2 gaming PCs and 2 3D printers.
+                Built two gaming PCs and two 3D printers.
               </p>
             </div>
             <div className="p-6 border border-white/5 rounded-2xl space-y-2">
               <h3 className="text-brand text-sm font-bold">This Website</h3>
               <p className="text-sm italic">
-                Designed the predacessor to this website. 
+                Designed the predecessor to this website.
                 My friend Charlie redesigned it for me. Thank you!
               </p>
             </div>

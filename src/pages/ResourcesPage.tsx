@@ -10,8 +10,9 @@ const ResourcesPage = (): JSX.Element => {
               FloatHead Physics
             </h3>
             <p>
-              He is the best Physics eductor that I've seen on youtube. His vidoes are truely incredible.
-              He explains the most unintuitive things in a way where you can intuitivley understand them
+              He is the best physics educator I have seen on YouTube. His
+              videos are truly incredible. He explains highly unintuitive
+              concepts in ways that make them feel understandable.
             </p>
           </div>
           <div className="space-y-4">
@@ -19,7 +20,8 @@ const ResourcesPage = (): JSX.Element => {
               3Blue1Brown
             </h3>
             <p>
-              Great math vidoes. His animations are great for understanding complex math
+              He makes great math videos, and his animations make complex
+              concepts easier to understand.
             </p>
           </div>
           <div className="space-y-4">
@@ -27,7 +29,8 @@ const ResourcesPage = (): JSX.Element => {
               Productivity
             </h3>
             <p>
-              Clearspace and Opal both helped me break bad habits with phone usage
+              Clearspace and Opal have both helped me break bad habits around
+              phone use.
             </p>
           </div>
           <div className="space-y-4">
@@ -35,8 +38,9 @@ const ResourcesPage = (): JSX.Element => {
               Teachers
             </h3>
             <p>
-              Most people don't appriciate how great of a resource Teachers are. Most people also dont understand how much work it is to be a teacher.
-              Please, thank your teachers for what they do.
+              Many people do not appreciate how valuable teachers are or
+              understand how much work teaching requires. Please thank your
+              teachers for what they do.
             </p>
           </div>
         </section>

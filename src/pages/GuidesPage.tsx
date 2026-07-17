@@ -8,8 +8,8 @@ const GuidesPage = (): JSX.Element => {
     >
       <div className="space-y-16">
         <p>
-          Hello reader! This is my guides page. For any project that I talk
-          about on this website, I will attempt to create a guide. If anything
+          Hello, reader! This is my guides page. For every project I discuss on
+          this website, I will attempt to create a guide. If anything
           needs clarification, feel free to email me.
         </p>
 
